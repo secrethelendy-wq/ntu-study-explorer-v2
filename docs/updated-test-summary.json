@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-12",
+  "baseline": "使用者提供最新版 GitHub ZIP，非舊專案",
+  "sourcePdf": "台大校內自習空間.pdf",
+  "sourcePages": 24,
+  "recordPages": [
+    8,
+    22
+  ],
+  "records": 15,
+  "stableIds": true,
+  "photos": 18,
+  "photoFilesUnchanged": true,
+  "build": "passed",
+  "finalTypeCheck": "passed",
+  "dataValidation": "passed",
+  "vitest": {
+    "passed": 26,
+    "failed": 0
+  },
+  "playwright": {
+    "passed": 30,
+    "failed": 0,
+    "projects": [
+      "desktop 1440×1000",
+      "tablet 768×1024",
+      "mobile 390×844"
+    ]
+  },
+  "realHttp": {
+    "url": "http://127.0.0.1:4180/ntu-study-explorer/",
+    "base": "/ntu-study-explorer/",
+    "httpChecks": [
+      {
+        "path": "/ntu-study-explorer/assets/index-Nkk8mpOP.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8"
+      },
+      {
+        "path": "/ntu-study-explorer/assets/index-hgRwMYcO.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8"
+      },
+      {
+        "path": "/ntu-study-explorer/images/s02-01.jpg",
+        "status": 200,
+        "type": "image/jpeg"
+      }
+    ],
+    "functionalErrors": [],
+    "liveErrors": [],
+    "tileResponses": [
+      {
+        "url": "https://tile.openstreetmap.org/16/54895/28061.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=19351, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54894/28061.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=17758, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54895/28060.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=21455, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54893/28062.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=20646, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54893/28061.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=12895, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54893/28060.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=18372, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54894/28063.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=17568, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54895/28062.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=15847, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54894/28062.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=20533, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54892/28060.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=19381, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54895/28063.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=17176, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54893/28063.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=18005, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54892/28063.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=18382, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54894/28060.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=16520, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54892/28062.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=17260, stale-while-revalidate=604800, stale-if-error=604800"
+      },
+      {
+        "url": "https://tile.openstreetmap.org/16/54892/28061.png",
+        "status": 200,
+        "blocked": null,
+        "cacheControl": "max-age=13467, stale-while-revalidate=604800, stale-if-error=604800"
+      }
+    ],
+    "passed": true,
+    "realMapMode": "Visible Chrome, real local HTTP, one initial OSM view, passive Network check; functional pan/zoom tests use test tiles."
+  },
+  "githubActionsAndBaseUnchanged": true,
+  "githubCommitOrPush": false
+}

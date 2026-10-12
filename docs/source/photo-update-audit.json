@@ -1,0 +1,365 @@
+[
+  {
+    "id": "s01",
+    "photo": 1,
+    "old": "images/s01-01.jpg",
+    "new": "p08-01-Im1.png",
+    "oldSize": [
+      1536,
+      2048
+    ],
+    "newSize": [
+      1536,
+      2048
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 0.5986056857638888,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 8,
+    "extractedSha256": "7f48f9bf0c5827def9b75d3dde3e79228856cbe45ea4e51c5c0c3c5d6eb62c6f"
+  },
+  {
+    "id": "s02",
+    "photo": 1,
+    "old": "images/s02-01.jpg",
+    "new": "p09-01-Im2.png",
+    "oldSize": [
+      1536,
+      2048
+    ],
+    "newSize": [
+      858,
+      644
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 69.18796793619792,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 9,
+    "pdfImageRotationClockwise": 90,
+    "meanPixelDifferenceAfterPdfRotation": 1.7544164230019492,
+    "verification": "新版 PDF 顯示方向為直式；影像物件經順時針 90 度轉向後與舊照相同。",
+    "extractedSha256": "9ae4c6bebdedaa1dd34c7ff215652674344e295e013c950d155c2ccebf65c5cb"
+  },
+  {
+    "id": "s03",
+    "photo": 1,
+    "old": "images/s03-01.jpg",
+    "new": "p10-01-Im3.png",
+    "oldSize": [
+      1536,
+      2048
+    ],
+    "newSize": [
+      1536,
+      2048
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 0.6768391927083334,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 10,
+    "extractedSha256": "b6d2a910532b50e96f7d424b2ff0517af8ae72f5db4b1f1266f1a37f323ac403"
+  },
+  {
+    "id": "s04",
+    "photo": 1,
+    "old": "images/s04-01.jpg",
+    "new": "p11-01-Im4.jpg",
+    "oldSize": [
+      2048,
+      1961
+    ],
+    "newSize": [
+      2048,
+      1961
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 0.4407619900173611,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 11,
+    "extractedSha256": "4ca845ed734910c9fa438e4840fe795cc4bd9d1475b477b95bc367e293569bdf"
+  },
+  {
+    "id": "s05",
+    "photo": 1,
+    "old": "images/s05-01.jpg",
+    "new": "p12-01-Im5.jpg",
+    "oldSize": [
+      1536,
+      2048
+    ],
+    "newSize": [
+      1536,
+      2048
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 0.4305216471354167,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 12,
+    "extractedSha256": "698627deb0a112016bcbd5132c0ebed67bb62a684e5e580d4220f0b5dcc106cc"
+  },
+  {
+    "id": "s06",
+    "photo": 1,
+    "old": "images/s06-01.jpg",
+    "new": "p13-01-Im6.jpg",
+    "oldSize": [
+      2500,
+      1875
+    ],
+    "newSize": [
+      2048,
+      1536
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 1.3867323133680556,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 13,
+    "extractedSha256": "3d42a90efd83095ec2c7611c96e3aeed25e1ac7a822a122112e1e5a940b4002a"
+  },
+  {
+    "id": "s07",
+    "photo": 1,
+    "old": "images/s07-01.jpg",
+    "new": "p14-01-Im7.jpg",
+    "oldSize": [
+      2500,
+      1875
+    ],
+    "newSize": [
+      2048,
+      1536
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 1.448391384548611,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 14,
+    "extractedSha256": "1e6992ab766e22199e3cdcd39e8204a3127722c12e4019bd0f66c7522f92f809"
+  },
+  {
+    "id": "s07",
+    "photo": 2,
+    "old": "images/s07-02.jpg",
+    "new": "p14-02-Im8.jpg",
+    "oldSize": [
+      2500,
+      1875
+    ],
+    "newSize": [
+      2048,
+      1536
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 1.96258544921875,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 14,
+    "extractedSha256": "3ac77054c55f7629536ba2f5e41f416c6e256e5588edde90eb1d7ce44596dd95"
+  },
+  {
+    "id": "s07",
+    "photo": 3,
+    "old": "images/s07-03.jpg",
+    "new": "p14-03-Im9.jpg",
+    "oldSize": [
+      2500,
+      1875
+    ],
+    "newSize": [
+      2048,
+      1536
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 1.6538221571180554,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 14,
+    "extractedSha256": "b5ca5b10119780aa21dac570aa1cf8fd4e7d8b17c970567ae926ffaa92310316"
+  },
+  {
+    "id": "s07",
+    "photo": 4,
+    "old": "images/s07-04.jpg",
+    "new": "p14-04-Im10.jpg",
+    "oldSize": [
+      2500,
+      1875
+    ],
+    "newSize": [
+      2048,
+      1536
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 1.431545681423611,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 14,
+    "extractedSha256": "98a0882a93e21fbc2d8fcdf3cbd0f86540b97a0e6ac8b3c7782b1df308f9c25a"
+  },
+  {
+    "id": "s08",
+    "photo": 1,
+    "old": "images/s08-01.jpg",
+    "new": "p15-01-Im11.jpg",
+    "oldSize": [
+      2500,
+      1875
+    ],
+    "newSize": [
+      2048,
+      1536
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 1.176337348090278,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 15,
+    "extractedSha256": "9ca2fbe700359af27222a9b9d8b74d7aae21516f338566735a331dadd8bf5096"
+  },
+  {
+    "id": "s09",
+    "photo": 1,
+    "old": "images/s09-01.jpg",
+    "new": "p16-01-Im12.jpg",
+    "oldSize": [
+      2500,
+      1875
+    ],
+    "newSize": [
+      2048,
+      1536
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 1.3459337022569444,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 16,
+    "extractedSha256": "af3110f444fa97c5aee4b295eec815e3877c284a41071787842b92151be73337"
+  },
+  {
+    "id": "s10",
+    "photo": 1,
+    "old": "images/s10-01.jpg",
+    "new": "p17-01-Im13.jpg",
+    "oldSize": [
+      2500,
+      1875
+    ],
+    "newSize": [
+      2048,
+      1536
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 1.6501736111111114,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 17,
+    "extractedSha256": "7708699b594afbe46a45a82b34eeec6b8dc1426cd436b57f12b97016e667b093"
+  },
+  {
+    "id": "s11",
+    "photo": 1,
+    "old": "images/s11-01.jpg",
+    "new": "p18-01-Im14.jpg",
+    "oldSize": [
+      2016,
+      1134
+    ],
+    "newSize": [
+      2016,
+      1134
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 0.5744154188368055,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 18,
+    "extractedSha256": "2ac2406ef1b2bd80b6028611b02dc0afa0eca6a7e5ee930eeb4e35d4d62da317"
+  },
+  {
+    "id": "s12",
+    "photo": 1,
+    "old": "images/s12-01.jpg",
+    "new": "p19-01-Im15.jpg",
+    "oldSize": [
+      2016,
+      1134
+    ],
+    "newSize": [
+      2016,
+      1134
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 0.5910780164930555,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 19,
+    "extractedSha256": "fa6bcfa19282e03029030500dbab65aaf6e1b7ab39d83bcc3f039a916e037c7d"
+  },
+  {
+    "id": "s13",
+    "photo": 1,
+    "old": "images/s13-01.jpg",
+    "new": "p20-01-Im16.jpg",
+    "oldSize": [
+      2016,
+      1134
+    ],
+    "newSize": [
+      2016,
+      1134
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 0.5656331380208334,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 20,
+    "extractedSha256": "103c560cc6e745c8bdc050cc43fea525d546b255078ec084a8919f5c44b30912"
+  },
+  {
+    "id": "s14",
+    "photo": 1,
+    "old": "images/s14-01.jpg",
+    "new": "p21-01-Im17.jpg",
+    "oldSize": [
+      2016,
+      1134
+    ],
+    "newSize": [
+      2016,
+      1134
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 0.587253146701389,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 21,
+    "extractedSha256": "bd78184630710449f3b103b2267e595e6447bc73e8fa1801b6c355ccdf37190d"
+  },
+  {
+    "id": "s15",
+    "photo": 1,
+    "old": "images/s15-01.jpg",
+    "new": "p22-01-Im18.jpg",
+    "oldSize": [
+      2016,
+      1134
+    ],
+    "newSize": [
+      2016,
+      1134
+    ],
+    "sameDecodedPixels": false,
+    "meanPixelDifference": 0.5381944444444444,
+    "contentChanged": false,
+    "action": "保留同一照片的既有較高品質檔案",
+    "newPdfPage": 22,
+    "extractedSha256": "1e911d616e927137d8de957073d62ad2f0e8d152f9ea886a8d42ca03a964b69d"
+  }
+]

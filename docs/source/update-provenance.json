@@ -1,0 +1,13 @@
+{
+  "baseline": "使用者下載的最新版 GitHub ZIP，未使用舊專案程式碼",
+  "zipSha256": "ffa2f8c18713a5aedf50a522a24365e463148b229c33b29176472c771e8885fa",
+  "pdfSha256": "445daaf83e4e206eadb813a029669da19ea06f849c4cc98ee642710ba18105b1",
+  "pdfPages": 24,
+  "recordPages": [
+    8,
+    22
+  ],
+  "updated": "2026-10-12",
+  "photos": "18 張內容相同，保留既有較高解析度檔案；新版 PDF 僅重壓縮、縮圖及普通教學館影像物件轉向。",
+  "unchangedRawFormatting": "純換行、空白及 Unicode 相容字形差異不重寫既有 raw；新版逐頁原文另存 records-24.json、tables.json 及 pdf-text.txt。"
+}

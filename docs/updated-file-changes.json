@@ -1,0 +1,142 @@
+[
+  {
+    "path": "README.md",
+    "action": "修改"
+  },
+  {
+    "path": "docs/DATA_MODEL.md",
+    "action": "修改"
+  },
+  {
+    "path": "docs/PENDING.md",
+    "action": "修改"
+  },
+  {
+    "path": "docs/TEST_REPORT.md",
+    "action": "修改"
+  },
+  {
+    "path": "docs/UPDATE_REPORT.md",
+    "action": "新增"
+  },
+  {
+    "path": "docs/source/metadata-update-diff.json",
+    "action": "新增"
+  },
+  {
+    "path": "docs/source/pdf-links.json",
+    "action": "修改"
+  },
+  {
+    "path": "docs/source/pdf-text.txt",
+    "action": "修改"
+  },
+  {
+    "path": "docs/source/photo-update-audit.json",
+    "action": "新增"
+  },
+  {
+    "path": "docs/source/records-24.json",
+    "action": "新增"
+  },
+  {
+    "path": "docs/source/source.pdf",
+    "action": "修改"
+  },
+  {
+    "path": "docs/source/tables.json",
+    "action": "修改"
+  },
+  {
+    "path": "docs/source/update-provenance.json",
+    "action": "新增"
+  },
+  {
+    "path": "docs/updated-browser-report.json",
+    "action": "新增"
+  },
+  {
+    "path": "docs/updated-desktop-criteria.png",
+    "action": "新增"
+  },
+  {
+    "path": "docs/updated-detail-s02.png",
+    "action": "新增"
+  },
+  {
+    "path": "docs/updated-file-changes.json",
+    "action": "新增"
+  },
+  {
+    "path": "docs/updated-home-live.png",
+    "action": "新增"
+  },
+  {
+    "path": "docs/updated-mobile-draft.png",
+    "action": "新增"
+  },
+  {
+    "path": "docs/updated-mobile-filter-panel.png",
+    "action": "新增"
+  },
+  {
+    "path": "docs/updated-test-summary.json",
+    "action": "新增"
+  },
+  {
+    "path": "scripts/validate-data.mjs",
+    "action": "修改"
+  },
+  {
+    "path": "src/App.tsx",
+    "action": "修改"
+  },
+  {
+    "path": "src/Detail.tsx",
+    "action": "修改"
+  },
+  {
+    "path": "src/Filters.tsx",
+    "action": "修改"
+  },
+  {
+    "path": "src/InclusionCriteria.tsx",
+    "action": "新增"
+  },
+  {
+    "path": "src/Quality.tsx",
+    "action": "刪除未使用元件"
+  },
+  {
+    "path": "src/SpaceCard.tsx",
+    "action": "修改"
+  },
+  {
+    "path": "src/data/spaces.json",
+    "action": "修改"
+  },
+  {
+    "path": "src/filter.ts",
+    "action": "修改"
+  },
+  {
+    "path": "src/styles.css",
+    "action": "修改"
+  },
+  {
+    "path": "tests/data.test.ts",
+    "action": "修改"
+  },
+  {
+    "path": "tests/e2e/explorer.spec.ts",
+    "action": "修改"
+  },
+  {
+    "path": "tests/filter.test.ts",
+    "action": "修改"
+  },
+  {
+    "path": "預覽本次更新.cmd",
+    "action": "新增"
+  }
+]

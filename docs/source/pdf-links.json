@@ -1,0 +1,492 @@
+[
+  {
+    "page": 2,
+    "uri": "https://map.ntu.edu.tw/",
+    "rect": [
+      396.96,
+      317.76,
+      517.68,
+      341.04
+    ]
+  },
+  {
+    "page": 7,
+    "uri": "https://map.ntu.edu.tw/",
+    "rect": [
+      262.08,
+      684.96,
+      383.04,
+      708.48
+    ]
+  },
+  {
+    "page": 8,
+    "uri": "https://map.ntu.edu.tw/index.html?height=3321&cx=13529519.03312773&cy=2877954.066743617&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=Mw==",
+    "rect": [
+      155.76,
+      443.52,
+      501.12,
+      456.96
+    ]
+  },
+  {
+    "page": 8,
+    "uri": "https://map.ntu.edu.tw/index.html?height=3321&cx=13529519.03312773&cy=2877954.066743617&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=Mw==",
+    "rect": [
+      155.76,
+      430.08,
+      501.12,
+      443.52
+    ]
+  },
+  {
+    "page": 8,
+    "uri": "https://map.ntu.edu.tw/index.html?height=3321&cx=13529519.03312773&cy=2877954.066743617&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=Mw==",
+    "rect": [
+      155.76,
+      416.64,
+      227.04,
+      430.08
+    ]
+  },
+  {
+    "page": 9,
+    "uri": "https://map.ntu.edu.tw/index.html?height=419&cx=13529408.024473308&cy=2878022.9767298712&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTQ4",
+    "rect": [
+      155.76,
+      440.64,
+      501.12,
+      454.08
+    ]
+  },
+  {
+    "page": 9,
+    "uri": "https://map.ntu.edu.tw/index.html?height=419&cx=13529408.024473308&cy=2878022.9767298712&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTQ4",
+    "rect": [
+      155.76,
+      427.2,
+      501.12,
+      440.64
+    ]
+  },
+  {
+    "page": 9,
+    "uri": "https://map.ntu.edu.tw/index.html?height=419&cx=13529408.024473308&cy=2878022.9767298712&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTQ4",
+    "rect": [
+      155.76,
+      413.76,
+      230.16,
+      427.2
+    ]
+  },
+  {
+    "page": 10,
+    "uri": "https://map.ntu.edu.tw/index.html?height=640&cx=13529721.973226964&cy=2877985.6898857676&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTg2NA==",
+    "rect": [
+      155.76,
+      471.84,
+      501.12,
+      485.28
+    ]
+  },
+  {
+    "page": 10,
+    "uri": "https://map.ntu.edu.tw/index.html?height=640&cx=13529721.973226964&cy=2877985.6898857676&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTg2NA==",
+    "rect": [
+      155.76,
+      458.4,
+      501.12,
+      471.84
+    ]
+  },
+  {
+    "page": 10,
+    "uri": "https://map.ntu.edu.tw/index.html?height=640&cx=13529721.973226964&cy=2877985.6898857676&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTg2NA==",
+    "rect": [
+      155.76,
+      444.96,
+      259.68,
+      458.4
+    ]
+  },
+  {
+    "page": 11,
+    "uri": "https://map.ntu.edu.tw/index.html?height=3321&cx=13529519.03312773&cy=2877954.066743617&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=Mw==",
+    "rect": [
+      155.76,
+      456.24,
+      501.12,
+      469.68
+    ]
+  },
+  {
+    "page": 11,
+    "uri": "https://map.ntu.edu.tw/index.html?height=3321&cx=13529519.03312773&cy=2877954.066743617&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=Mw==",
+    "rect": [
+      155.76,
+      442.8,
+      501.12,
+      456.24
+    ]
+  },
+  {
+    "page": 11,
+    "uri": "https://map.ntu.edu.tw/index.html?height=3321&cx=13529519.03312773&cy=2877954.066743617&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=Mw==",
+    "rect": [
+      155.76,
+      429.36,
+      227.04,
+      442.8
+    ]
+  },
+  {
+    "page": 12,
+    "uri": "https://map.ntu.edu.tw/index.html?height=463&cx=13529403.54910182&cy=2878049.410825786&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MjI3",
+    "rect": [
+      155.76,
+      479.52,
+      501.12,
+      493.2
+    ]
+  },
+  {
+    "page": 12,
+    "uri": "https://map.ntu.edu.tw/index.html?height=463&cx=13529403.54910182&cy=2878049.410825786&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MjI3",
+    "rect": [
+      155.76,
+      466.08,
+      501.12,
+      479.52
+    ]
+  },
+  {
+    "page": 12,
+    "uri": "https://map.ntu.edu.tw/index.html?height=463&cx=13529403.54910182&cy=2878049.410825786&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MjI3",
+    "rect": [
+      155.76,
+      452.64,
+      209.76,
+      466.08
+    ]
+  },
+  {
+    "page": 13,
+    "uri": "https://map.ntu.edu.tw/index.html?height=414&cx=13529420.26279863&cy=2877416.245941036&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=OTA=",
+    "rect": [
+      155.76,
+      440.64,
+      501.12,
+      454.08
+    ]
+  },
+  {
+    "page": 13,
+    "uri": "https://map.ntu.edu.tw/index.html?height=414&cx=13529420.26279863&cy=2877416.245941036&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=OTA=",
+    "rect": [
+      155.76,
+      427.2,
+      501.12,
+      440.64
+    ]
+  },
+  {
+    "page": 13,
+    "uri": "https://map.ntu.edu.tw/index.html?height=414&cx=13529420.26279863&cy=2877416.245941036&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=OTA=",
+    "rect": [
+      155.76,
+      413.76,
+      219.84,
+      427.2
+    ]
+  },
+  {
+    "page": 14,
+    "uri": "https://map.ntu.edu.tw/index.html?height=414&cx=13529420.26279863&cy=2877416.245941036&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=ODc=",
+    "rect": [
+      155.76,
+      401.52,
+      501.12,
+      415.2
+    ]
+  },
+  {
+    "page": 14,
+    "uri": "https://map.ntu.edu.tw/index.html?height=414&cx=13529420.26279863&cy=2877416.245941036&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=ODc=",
+    "rect": [
+      155.76,
+      388.08,
+      501.12,
+      401.52
+    ]
+  },
+  {
+    "page": 14,
+    "uri": "https://map.ntu.edu.tw/index.html?height=414&cx=13529420.26279863&cy=2877416.245941036&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=ODc=",
+    "rect": [
+      155.76,
+      374.64,
+      218.64,
+      388.08
+    ]
+  },
+  {
+    "page": 15,
+    "uri": "https://map.ntu.edu.tw/index.html?height=414&cx=13529420.26279863&cy=2877416.245941036&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=ODY=",
+    "rect": [
+      155.76,
+      402.48,
+      501.12,
+      415.92
+    ]
+  },
+  {
+    "page": 15,
+    "uri": "https://map.ntu.edu.tw/index.html?height=414&cx=13529420.26279863&cy=2877416.245941036&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=ODY=",
+    "rect": [
+      155.76,
+      389.04,
+      501.12,
+      402.48
+    ]
+  },
+  {
+    "page": 15,
+    "uri": "https://map.ntu.edu.tw/index.html?height=414&cx=13529420.26279863&cy=2877416.245941036&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=ODY=",
+    "rect": [
+      155.76,
+      375.6,
+      221.52,
+      389.04
+    ]
+  },
+  {
+    "page": 15,
+    "uri": "https://my.ntu.edu.tw/venuerental/Home/BuildingSchedule?Date=2026-10-02&BuildingId=2",
+    "rect": [
+      176.88,
+      309.12,
+      501.12,
+      322.56
+    ]
+  },
+  {
+    "page": 15,
+    "uri": "https://my.ntu.edu.tw/venuerental/Home/BuildingSchedule?Date=2026-10-02&BuildingId=2",
+    "rect": [
+      155.76,
+      295.44,
+      318.0,
+      309.12
+    ]
+  },
+  {
+    "page": 16,
+    "uri": "https://map.ntu.edu.tw/index.html?height=626&cx=13529524.097493712&cy=2878123.0882691834&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTUw",
+    "rect": [
+      155.76,
+      456.24,
+      501.12,
+      469.68
+    ]
+  },
+  {
+    "page": 16,
+    "uri": "https://map.ntu.edu.tw/index.html?height=626&cx=13529524.097493712&cy=2878123.0882691834&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTUw",
+    "rect": [
+      155.76,
+      442.8,
+      501.12,
+      456.24
+    ]
+  },
+  {
+    "page": 16,
+    "uri": "https://map.ntu.edu.tw/index.html?height=626&cx=13529524.097493712&cy=2878123.0882691834&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTUw",
+    "rect": [
+      155.76,
+      429.36,
+      231.84,
+      442.8
+    ]
+  },
+  {
+    "page": 17,
+    "uri": "https://map.ntu.edu.tw/index.html?height=349&cx=13530247.058626521&cy=2878189.7060278147&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MjA0",
+    "rect": [
+      155.76,
+      456.24,
+      501.12,
+      469.68
+    ]
+  },
+  {
+    "page": 17,
+    "uri": "https://map.ntu.edu.tw/index.html?height=349&cx=13530247.058626521&cy=2878189.7060278147&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MjA0",
+    "rect": [
+      155.76,
+      442.8,
+      501.12,
+      456.24
+    ]
+  },
+  {
+    "page": 17,
+    "uri": "https://map.ntu.edu.tw/index.html?height=349&cx=13530247.058626521&cy=2878189.7060278147&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MjA0",
+    "rect": [
+      155.76,
+      429.36,
+      224.64,
+      442.8
+    ]
+  },
+  {
+    "page": 18,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529503.770598682&cy=2877682.9369868804&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTIy",
+    "rect": [
+      155.76,
+      417.12,
+      501.12,
+      430.8
+    ]
+  },
+  {
+    "page": 18,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529503.770598682&cy=2877682.9369868804&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTIy",
+    "rect": [
+      155.76,
+      403.68,
+      501.12,
+      417.12
+    ]
+  },
+  {
+    "page": 18,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529503.770598682&cy=2877682.9369868804&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTIy",
+    "rect": [
+      155.76,
+      390.24,
+      224.64,
+      403.68
+    ]
+  },
+  {
+    "page": 19,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529707.089850899&cy=2877902.1601771466&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTA5",
+    "rect": [
+      155.76,
+      467.04,
+      501.12,
+      480.48
+    ]
+  },
+  {
+    "page": 19,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529707.089850899&cy=2877902.1601771466&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTA5",
+    "rect": [
+      155.76,
+      453.6,
+      501.12,
+      467.04
+    ]
+  },
+  {
+    "page": 19,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529707.089850899&cy=2877902.1601771466&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTA5",
+    "rect": [
+      155.76,
+      440.16,
+      229.2,
+      453.6
+    ]
+  },
+  {
+    "page": 20,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529996.211124042&cy=2878224.9994657207&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTY1MA==",
+    "rect": [
+      155.76,
+      463.92,
+      501.12,
+      477.6
+    ]
+  },
+  {
+    "page": 20,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529996.211124042&cy=2878224.9994657207&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTY1MA==",
+    "rect": [
+      155.76,
+      450.48,
+      501.12,
+      463.92
+    ]
+  },
+  {
+    "page": 20,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529996.211124042&cy=2878224.9994657207&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTY1MA==",
+    "rect": [
+      155.76,
+      437.04,
+      263.04,
+      450.48
+    ]
+  },
+  {
+    "page": 21,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529996.211124042&cy=2878224.9994657207&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTY1MA==",
+    "rect": [
+      155.76,
+      435.84,
+      501.12,
+      449.28
+    ]
+  },
+  {
+    "page": 21,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529996.211124042&cy=2878224.9994657207&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTY1MA==",
+    "rect": [
+      155.76,
+      422.4,
+      501.12,
+      435.84
+    ]
+  },
+  {
+    "page": 21,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529996.211124042&cy=2878224.9994657207&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MTY1MA==",
+    "rect": [
+      155.76,
+      408.96,
+      263.04,
+      422.4
+    ]
+  },
+  {
+    "page": 22,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529632.509347174&cy=2878219.123013362&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MjAw",
+    "rect": [
+      155.76,
+      482.64,
+      501.12,
+      496.08
+    ]
+  },
+  {
+    "page": 22,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529632.509347174&cy=2878219.123013362&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MjAw",
+    "rect": [
+      155.76,
+      469.2,
+      501.12,
+      482.64
+    ]
+  },
+  {
+    "page": 22,
+    "uri": "https://map.ntu.edu.tw/index.html?height=426&cx=13529632.509347174&cy=2878219.123013362&layer=bnR1X2J1aWxkaW5nX2JvdW5k&apKey=MjAw",
+    "rect": [
+      155.76,
+      455.76,
+      222.0,
+      469.2
+    ]
+  }
+]
