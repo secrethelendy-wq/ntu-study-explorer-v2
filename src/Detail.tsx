@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ArrowLeft, ArrowUpRight, MapPin, Users, Plug, Volume2, Snowflake, IdCard, Utensils, Sun, MessageCircle, DoorOpen, BookOpen, ChevronLeft, ChevronRight, Info } from 'lucide-react'
-import { asset, dataset, spaces } from './data'
+import { asset, spaces } from './data'
 import { lightLabels, outletLabels, relatedSpaces, seatsLabel } from './filter'
 import SpaceCard from './SpaceCard'
 import type { Space } from './types'
@@ -8,7 +8,6 @@ import type { Space } from './types'
 export default function Detail({ space: s, onFocus, compared, onCompare }: { space: Space; onFocus: (s: Space) => void; compared: string[]; onCompare: (id: string) => void }) {
   const [photoIndex, setPhotoIndex] = useState(0)
   const photo = s.photos[photoIndex] ?? s.photos[0]
-  const location = s.location.coordinates
   const fields = [
     { name: '席位', icon: Users, value: seatsLabel(s.seats), detail: s.seats.areas.map(a=>`${a.label}：${seatsLabel(a)}`).join('；') },
     { name: '插座', icon: Plug, value: outletLabels[s.outlets.coverage], detail: `${s.outlets.knownSeats !== null ? `${s.outlets.estimated ? '約 ' : ''}${s.outlets.knownSeats} 席可使用${s.outlets.location ? '；' : ''}` : ''}${s.outlets.location ?? ''}` || s.raw['插座'] },
@@ -31,7 +30,7 @@ export default function Detail({ space: s, onFocus, compared, onCompare }: { spa
     <section className="notes-section"><h2>進入方式與其他說明</h2>{s.id !== 's01' && s.location.entranceNote && (
   <p className="source-text">{s.location.entranceNote}</p>
 )}<p className="source-text">{s.description || '原始紀錄未提供其他說明。'}</p>{s.id==='s08' && <p><a href={s.externalLinks[0]?.url} target="_blank" rel="noopener noreferrer">原始場地租借狀況查詢連結 ↗</a></p>}<div className="recorder-line">記錄者：<strong>{s.recorder}</strong><span>·</span>資料來源：課程 PDF，非即時場地系統</div></section>
-    <details className="raw-metadata"><summary>查看原始 Metadata</summary><p className="muted">保留 PDF 用字、換行與空白欄位；照片在上方逐張呈現。</p><dl>{Object.entries(s.raw).filter(([key])=>key!=='照片').map(([k,v])=><div key={k}><dt>{k}</dt><dd className="source-text">{k==='地點' ? <><a href={s.location.officialMapUrl} target="_blank" rel="noopener noreferrer">開啟臺大官方校園地圖<ArrowUpRight size={14}/></a>{v.includes('附註') && <p>{v.slice(v.indexOf('附註'))}</p>}</> : v || '（原始欄位留白）'}</dd></div>)}</dl><p className="coordinate-note">地圖定位來源：<a href={dataset.source.coordinateSource} target="_blank" rel="noopener noreferrer">臺大官方 WFS 建築圖資（EPSG:4326） ↗</a>；{location?.method}。定位為建築物層級，請依進入說明尋找樓層與入口。</p></details>
+    <details className="raw-metadata"><summary>查看原始 Metadata</summary><p className="muted">保留 PDF 用字、換行與空白欄位；照片在上方逐張呈現。</p><dl>{Object.entries(s.raw).filter(([key])=>key!=='照片').map(([k,v])=><div key={k}><dt>{k}</dt><dd className="source-text">{k==='地點' ? <><a href={s.location.officialMapUrl} target="_blank" rel="noopener noreferrer">開啟臺大官方校園地圖<ArrowUpRight size={14}/></a>{v.includes('附註') && <p>{v.slice(v.indexOf('附註'))}</p>}</> : v || '（原始欄位留白）'}</dd></div>)}</dl</details>
     <section className="related-section"><div className="section-heading"><div><div className="eyebrow">繼續探索校園</div><h2>同棟或條件相似的空間</h2></div></div><div className="related-grid">{relatedSpaces(s,spaces).map(({space})=><SpaceCard key={space.id} space={space} onFocus={onFocus} compared={compared.includes(space.id)} onCompare={onCompare}/>)}</div></section>
   </main>
 }
