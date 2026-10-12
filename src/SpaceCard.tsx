@@ -19,6 +19,9 @@ export default function SpaceCard({ space: s, selected, compared, onFocus, onCom
       {s.climate.note && <p className="card-note">{s.climate.note}</p>}
       {s.id==='s08' && <p className="card-note">遇場地外借時不開放，請查看入口公告。</p>}
       {s.id==='s09' && <p className="card-note">入館須抵押學生證、換取鑰匙並寄放包包。</p>}
+      {s.building === '圖書資訊館' && s.floor === '2F' && (
+  <p className="card-note">包包需要鎖入置物櫃後方可入館。</p>
+)}
       <div className="card-actions"><button className="locate-button" onClick={() => onFocus(s)} disabled={!s.location.coordinates}><MapPin size={14}/>{s.location.coordinates ? '在地圖定位' : '位置待確認'}</button><button className={`compare-button ${compared ? 'compared' : ''}`} aria-pressed={!!compared} aria-label={`${compared ? '取消比較' : '加入比較'} ${s.name}`} onClick={() => onCompare(s.id)}>{compared ? <Check size={14}/> : <Plus size={14}/>}比較</button></div>
     </div>
   </article>
