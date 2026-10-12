@@ -12,7 +12,7 @@ export default function Detail({ space: s, onFocus, compared, onCompare }: { spa
     { name: '席位', icon: Users, value: seatsLabel(s.seats), detail: s.seats.areas.map(a=>`${a.label}：${seatsLabel(a)}`).join('；') },
     { name: '插座', icon: Plug, value: outletLabels[s.outlets.coverage], detail: `${s.outlets.knownSeats !== null ? `${s.outlets.estimated ? '約 ' : ''}${s.outlets.knownSeats} 席可使用${s.outlets.location ? '；' : ''}` : ''}${s.outlets.location ?? ''}` || s.raw['插座'] },
     { name: '安靜程度', icon: Volume2, value: s.quietness.level, detail: `可能聲音：${s.quietness.noiseSources.join('、')}${s.quietness.note ? `。${s.quietness.note}` : ''}` },
-    { name: '討論規範', icon: MessageCircle, value: s.quietness.discussionOriginal, detail: s.quietness.note ?? '依原始紀錄，請尊重現場使用者。' },
+    { name: '討論規範', icon: MessageCircle, value: s.quietness.discussionOriginal, detail: s.quietness.note ?? '' },
     { name: '空間開放程度', icon: DoorOpen, value: s.openness, detail: s.raw['空間開放程度'] },
     { name: '學生證要求', icon: IdCard, value: s.studentCardRequired ? '需要學生證' : '不需要學生證', detail: s.id==='s09' ? '需抵押學生證並換取置物櫃鑰匙。' : s.id==='s01' ? '進入館內需刷學生證入閘門。' : '依原始紀錄' },
     { name: '空調與風扇', icon: Snowflake, value: `${s.climate.airConditioning ? '有空調' : '無空調'} · ${s.climate.fan ? '有風扇' : '無風扇'}`, detail: s.climate.note ?? '設備狀況依紀錄，並非即時運轉狀態。' },
