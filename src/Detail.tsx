@@ -16,7 +16,7 @@ export default function Detail({ space: s, onFocus, compared, onCompare }: { spa
     { name: '空間開放程度', icon: DoorOpen, value: s.openness, detail: s.raw['空間開放程度'] },
     { name: '學生證要求', icon: IdCard, value: s.studentCardRequired ? '需要學生證' : '不需要學生證', detail: s.id==='s09' ? '需抵押學生證並換取置物櫃鑰匙。' : s.id==='s01' ? '進入館內需刷學生證入閘門。' : '' },
     { name: '空調與風扇', icon: Snowflake, value: `${s.climate.airConditioning ? '有空調' : '無空調'} · ${s.climate.fan ? '有風扇' : '無風扇'}`, detail: s.climate.note ?? '設備狀況依紀錄，並非即時運轉狀態。' },
-    { name: '飲食', icon: Utensils, value: s.foodAllowed ? '可以飲食' : '禁止飲食', detail: s.raw['飲食'] },
+    { name: '飲食', icon: Utensils, value: s.foodAllowed ? '可以飲食' : '禁止飲食', detail: '' },
     { name: '光線相關', icon: Sun, value: lightLabels[s.lighting.indoorAdequacy], detail: `${s.raw['光線相關']}${s.lighting.independentLighting === null ? '；獨立照明未記載。' : ''}` },
   ]
   return <main className="detail-page" id="main-content" tabIndex={-1}>
