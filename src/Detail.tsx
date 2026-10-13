@@ -56,7 +56,41 @@ export default function Detail({ space: s, onFocus, compared, onCompare }: { spa
   記錄者：<strong>{s.recorder}</strong>
 </div>
 </section>
-    <details className="raw-metadata"><summary>查看原始 Metadata</summary><dl>{Object.entries(s.raw).filter(([key])=>key!=='照片').map(([k,v])=><div key={k}><dt>{k}</dt><dd className="source-text">{k==='地點' ? <><a href={s.location.officialMapUrl} target="_blank" rel="noopener noreferrer">開啟臺大官方校園地圖<ArrowUpRight size={14}/></a>{v.includes('附註') && <p>{v.slice(v.indexOf('附註'))}</p>}</> : v || '（原始欄位留白）'}</dd></div>)}</dl></details>
+    <details className="raw-metadata"><summary>查看原始 Metadata</summary><dl>
+  <div>
+    <dt>紀錄日期</dt>
+    <dd className="source-text">
+      {s.recorder.trim() === '郭亮纖' ? '2026/10/09' : '2026/10/11'}
+    </dd>
+  </div>
+
+  {Object.entries(s.raw)
+    .filter(([key]) => key !== '照片' && key !== '紀錄日期')
+    .map(([k, v]) => (
+      <div key={k}>
+        <dt>{k}</dt>
+        <dd className="source-text">
+          {k === '地點' ? (
+            <>
+              <a
+                href={s.location.officialMapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                開啟臺大官方校園地圖
+                <ArrowUpRight size={14} />
+              </a>
+              {v.includes('附註') && (
+                <p>{v.slice(v.indexOf('附註'))}</p>
+              )}
+            </>
+          ) : (
+            v || '（原始欄位留白）'
+          )}
+        </dd>
+      </div>
+    ))}
+</dl></details>
     <section className="related-section"><div className="section-heading"><div><div className="eyebrow">繼續探索校園</div><h2>同棟或條件相似的空間</h2></div></div><div className="related-grid">{relatedSpaces(s,spaces).map(({space})=><SpaceCard key={space.id} space={space} onFocus={onFocus} compared={compared.includes(space.id)} onCompare={onCompare}/>)}</div></section>
   </main>
 }
